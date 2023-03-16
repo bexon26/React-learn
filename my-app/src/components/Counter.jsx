@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Counter = function () {
+const Counter =  () => {
   const [likes, setLikes] = useState(5);
   let increment = () => {
     setLikes(likes + 1);
